@@ -88,6 +88,8 @@ fabric.properties
 
 /.idea/
 
+/venv/
+
 ## Intermediate documents:
 *.dvi
 *.xdv
