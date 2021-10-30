@@ -3,12 +3,18 @@
 # Strg + K = Commit
 # Strg + T = Update
 
-# print("Sussy") # Ausgabe
-# input("Wie heißt Deneux: ") # Eingabe
+def answer_check(answer): # Definieren einer Funktion
+    if "!" in answer.lower(): # Wenn - Dann
+        print("Ihre Antwort wird verarbeitet")
+    else:
+        print("Ihre Antwort wurde abgelehnt")
+    return answer.lower() # Wert zurückgeben
 
-antwort = input("Was ist 2 + 2? ")
 
-if antwort == "4":
-    print("Super! Du kannst voll toll rechnen")
-else:
-    print("Du scheiß Idiot, hast keinen Plan")
+antwort = answer_check( # Funktion answer_check() aufrufen und Wert erhalten
+    input("Wie ist ihr Name? ") # Nutzer nach Namen fragen
+)
+
+
+print(antwort) # Wert der Funktion ausgeben
+
