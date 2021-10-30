@@ -10,3 +10,5 @@ antwort = input("Was ist 2 + 2? ")
 
 if antwort == "4":
     print("Super! Du kannst voll toll rechnen")
+else:
+    print("Du scheiß Idiot, hast keinen Plan")
