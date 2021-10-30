@@ -86,6 +86,8 @@ fabric.properties
 *.cb2
 .*.lb
 
+/.idea/
+
 ## Intermediate documents:
 *.dvi
 *.xdv
